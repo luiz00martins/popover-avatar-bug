@@ -4,7 +4,9 @@ import { Avatar, Flex, Popover, Text, Theme } from '@radix-ui/themes'
 
 function App() {
   return (
-    <Theme>
+    <Theme
+      appearance="dark"
+    >
       <Flex align="center" justify="center" gap="1" height="100vh">
         <Flex direction="column" align="center" gap="2">
           <Text>I work</Text>
